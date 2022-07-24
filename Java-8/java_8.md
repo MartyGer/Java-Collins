@@ -13,7 +13,7 @@ public interface University
     }
 }
 
-public class College implements Univeristy
+public class College implements University
 {
     String name = "St. John's College";
     public void getName()
@@ -40,7 +40,7 @@ public interface University
     }
 }
 
-public class College implements Univeristy
+public class College implements University
 {
     String name = "St. John's College";
     public void getName()
