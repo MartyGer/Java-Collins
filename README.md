@@ -1,14 +1,15 @@
 # Java-Collins
-Object class and methods
-Primitive classes,
-Wrapper classes,
-AutoBoxing and Unboxing feature,
-String Constant Pool,
-Inheritance
-Abstract classes and Interface,
-Collection Framework
-Static and Default methods
-Optional, Lambda Expressions, MethodReferences, Streams and StreamPipelining
-Spring Annotations,
-REST (Representational State Transfer) - GET, POST, PUT, DELETE
-Maven - Maven project structure and maven build commands
+- [x] Object class and methods
+- [x] Primitive classes
+- [x] Wrapper classes
+- [x] AutoBoxing and Unboxing feature
+- [x] String Constant Pool
+- [x] Inheritance
+- [x] Abstract classes and Interface
+- [x] Collection Framework
+- [x] Static and Default methods
+- [ ] Optional, Lambda Expressions, MethodReferences, Streams and StreamPipelining
+- [ ] Spring Annotations
+- [x] REST (Representational State Transfer) - GET, POST, PUT, DELETE
+- [ ] Maven - Maven project structure and maven build commands
+
