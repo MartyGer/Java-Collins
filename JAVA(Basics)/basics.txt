@@ -1,0 +1,122 @@
+i) Object class and methods:
+a) Class: It is the blueprint from which the objects are created. It includes Instance Variables and Methods.
+b) Object: It is the instance(result) of the class.
+c) Methods: These are a part of a class in Java. Basically, a method is a function.
+
+Imp. Class: Object Class
+
+#My Understanding: Object Class is at the topmost class position (parent class) of all the object classes. 
+Basically, every class extends the Object class directly or indirectly.
+
+ii) Primitive classes: There are 8 primitive classes in Java:
+a) int 
+b) float
+c) boolean
+d) double
+e) long
+f) short
+g) byte
+h) char
+
+iii) Wrapper classes: Wrapper Classes are those classes which are the Object class version of the 
+Primitive Classes. Basically, the primitive classes can be reused as a wrapper class object and vice-versa.
+a) int -> Integer
+b) float -> float
+c) boolean -> boolean
+d) double -> Double
+e) long -> Long
+f) short -> Short
+g) byte -> Byte 
+h) char -> Character
+
+iv) AutoBoxing and Unboxing feature: Autoboxing happens when a primitive class gets converted to their
+synonyms Wrapper Class objects.
+For e.g: 
+int a = 10;
+Integer b = new Integer(a); // Autoboxing from int to an Integer Object.
+Unboxing: It is the opposite of the Autoboxing wherein, when a wrapper class object is converted to 
+its synonyms primitive class.
+For e.g:
+Integer a = new Integer(10);
+int b = a; // Unboxing from Integer Object to an int.
+
+v) String Constant Pool: It is an area in the Heap. As we know, String can be initialized in two different
+ways: 
+a) String str1 = "Hello";
+b) String str2 = new String("Hello");
+First version will store the String directly inside the SCP but the second one will store the String in two
+different places (both the Heap and the SCP). So, it is generally better to use the first version. Also, 
+the SCP will first scan the Strings inside, and if it exists in the first place the objects will point at 
+only one place. (So, it saves memory also).
+
+vi) Inheritance: It is an important OOPs concept. It means that the child class shall be able to reuse the
+functionality of the parent class. Hence it reduces the redundant code and increases reusablilty.
+Types of Inheritance:
+a) Single: 
+public class Remote
+{
+    public void btnPowerOn()
+    {
+        System.out.println("You just pressed the Power On Button");
+    }
+}
+
+public class BluetoothRemote extends Remote
+{
+    public static void main(String[] args)
+    {
+        btnPowerOn();
+    }
+}
+
+vii) Abstract classes and Interface
+a) Abstract Classes: This class provide 0-100% of abstraction. So, we can either have the fully functional
+method with it's functionality in-built inside the abstract class or we can just have the functions name with its arguments. This class is
+extended by the other class by using the keyword 'abstract'.
+For e.g
+public abstract class Person
+{
+    abstract void name();
+}
+
+public class Student extends Person
+{
+    String name;
+    public void name()
+    {
+        System.out.println(name);
+    }
+}
+
+b) Interface: These classes fully support Abstraction (Only until Java 7). These classes are implemented instead 
+of extended. After Java 8's release, we can now have an interface with a static and default method which reduces
+Abstraction.
+For e.g
+public Interface University
+{
+    void getName();
+}
+
+public class College implements University
+{
+    public void getName()
+    {
+        System.out.println("St. John's College");
+    }
+}
+
+viii) Collection Framework:
+        Iterable
+            |
+        Collection
+            |
+|----------------|---------------------------|
+Lists           Queue                       Sets
+|               |                            |
+Array List      Deque Priority Deque        Hash Set
+|                                            |
+Linked List                                 Sorted Set
+|                                            | 
+Vector                                      Tree Set
+|
+Stack
