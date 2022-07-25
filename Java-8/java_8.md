@@ -1,4 +1,4 @@
-# JAVA (8)
+## JAVA (8)
 i) Static and Default methods
 Static methods have been present before the JAVA 8 update, but this update is for the Interface. So, now we can have methods similar to the abstract class methods. This means that now not only the abstract methods are a part of the Interface but also the implementation is included in the #Interface.
 For e.g

@@ -3,9 +3,7 @@ a) Class: It is the blueprint from which the objects are created. It includes In
 b) Object: It is the instance(result) of the class.
 c) Methods: These are a part of a class in Java. Basically, a method is a function.
 
-Imp. Class: Object Class
-
-#My Understanding: Object Class is at the topmost class position (parent class) of all the object classes. 
+#Object Class: Object Class is at the topmost class position (parent class) of all the object classes. 
 Basically, every class extends the Object class directly or indirectly.
 
 ii) Primitive classes: There are 8 primitive classes in Java:
@@ -65,7 +63,7 @@ public class BluetoothRemote extends Remote
 {
     public static void main(String[] args)
     {
-        btnPowerOn();
+        btnPowerOn(); // Prints "You just pressed the Power On Button" 
     }
 }
 
