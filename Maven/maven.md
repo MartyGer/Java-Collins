@@ -22,3 +22,4 @@ d) mvn clean \
 e) mvn eclipse:eclipse // For Eclipse IDE\
 f) mvn idea:idea // For Intellij IDE\
 g) mvn archetype:generate
+h) mvn package
