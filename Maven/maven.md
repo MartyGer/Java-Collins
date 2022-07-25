@@ -7,11 +7,11 @@ b) Artifact ID\
 c) Version
 
 ii) Maven Project Structure:
-src\main\java
-src\main\resourses
-src\test\java
-src\test\resourses
-target
+src\main\java\
+src\main\resourses\
+src\test\java\
+src\test\resourses\
+target\
 pom.xml
 
 iii) Maven Commands:
