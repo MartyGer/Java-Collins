@@ -3,11 +3,12 @@ a) Class: It is the blueprint from which the objects are created. It includes In
 b) Object: It is the instance(result) of the class.
 c) Methods: These are a part of a class in Java. Basically, a method is a function.
 
-# Object Class: Object Class is at the topmost class position (parent class) of all the object classes. 
+# Object Class:
+Object Class is at the topmost class position (parent class) of all the object classes. 
 Basically, every class extends the Object class directly or indirectly.
 
 ## ii) Primitive classes: There are 8 primitive classes in Java:
-a) int\ 
+a) int\
 b) float\
 c) boolean\
 d) double\
@@ -17,7 +18,7 @@ g) byte\
 h) char
 
 ## iii) Wrapper classes: Wrapper Classes are those classes which are the Object class version of the 
-Primitive Classes. Basically, the primitive classes can be reused as a wrapper class object and vice-versa.
+Primitive Classes. Basically, the primitive classes can be reused as a wrapper class object and vice-versa.\
 a) int -> Integer\
 b) float -> float\
 c) boolean -> boolean\
@@ -27,8 +28,8 @@ f) short -> Short\
 g) byte -> Byte\
 h) char -> Character
 
-## iv) AutoBoxing and Unboxing feature: Autoboxing happens when a primitive class gets converted to their
-synonyms Wrapper Class objects.
+## iv) AutoBoxing and Unboxing feature: 
+Autoboxing happens when a primitive class gets converted to their synonyms Wrapper Class objects.
 For e.g: 
 ```
 int a = 10;
@@ -42,8 +43,8 @@ Integer a = new Integer(10);
 int b = a; // Unboxing from Integer Object to an int.
 ```
 
-## v) String Constant Pool: It is an area in the Heap. As we know, String can be initialized in two different
-ways: 
+## v) String Constant Pool: 
+It is an area in the Heap. As we know, String can be initialized in two different ways:\
 a) String str1 = "Hello";\
 b) String str2 = new String("Hello");\
 First version will store the String directly inside the SCP but the second one will store the String in two
@@ -51,9 +52,9 @@ different places (both the Heap and the SCP). So, it is generally better to use 
 the SCP will first scan the Strings inside, and if it exists in the first place the objects will point at 
 only one place. (So, it saves memory also).
 
-## vi) Inheritance: It is an important OOPs concept. It means that the child class shall be able to reuse the
-functionality of the parent class. Hence it reduces the redundant code and increases reusablilty.
-Types of Inheritance:
+## vi) Inheritance: 
+It is an important OOPs concept. It means that the child class shall be able to reuse the functionality of the parent class. Hence it reduces the redundant code and increases reusablilty.\
+Types of Inheritance:\
 a) Single: 
 ```
 public class Remote
@@ -111,6 +112,7 @@ public class College implements University
 }
 ```
 ## viii) Collection Framework:
+```
         Iterable
             |
         Collection
@@ -125,3 +127,5 @@ Linked List                                 Sorted Set
 Vector                                      Tree Set
 |
 Stack
+
+```
