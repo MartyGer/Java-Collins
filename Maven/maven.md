@@ -6,7 +6,7 @@ a) Group ID\
 b) Artifact ID\
 c) Version
 
-ii) Maven Project Structure:
+ii) Maven Project Structure:\
 src\main\java\
 src\main\resourses\
 src\test\java\
