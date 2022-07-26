@@ -4,7 +4,7 @@ import java.util.*;
 
 public class App 
 {
-    public static void main( String[] args )
+    public static void main(String[] args)
     {
         ArrayList<Integer> list = new ArrayList<>();
         list.add(1);
@@ -22,6 +22,11 @@ public class App
         	System.out.println(i);
         }
         System.out.println("EOF!");
+        
+        
+		/*
+		 * Thread th = new Thread(() -> System.out.println("Thread")); th.start();
+		 */
         
     }
 }
