@@ -95,3 +95,18 @@ Stream<String> streamString = Stream.of("alpha", "bravo", "charlie");
 		List<Integer> listInt2 = IntStream.of(1,3, 5, 7, 9).mapToObj(Integer::valueOf).collect(Collectors.toList());
 		System.out.println();
 ```
+# Operations in Stream API
+i) Intermediate Operations\
+These operations generate and return another Stream. These will not generate anything until and unless the Terminal Operation takes place. These operations can also be chained together. For e.g map(), filter(), limit().
+
+ii) Terminal Operations\
+These operations actually generates a result. After this operation, we cannot reuse the Stream again. For e.g forEach(), toArray(), min() etc.
+
+# Stream Pipeline
+It is 3 phase process of the stream. The stream API follows the following pipeline:
+i) Source\
+ii) Intermediate Operations\
+iii) Terminal Operations
+
+
+

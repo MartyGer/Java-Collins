@@ -74,7 +74,7 @@ public class LambdaPractice2 {
 		
 		// Another way of converting an int(Stream) to a List
 		List<Integer> listInt2 = IntStream.of(1,3, 5, 7, 9).mapToObj(Integer::valueOf).collect(Collectors.toList());
-		System.out.println(listInt2.toString());
+		System.out.println();
 		
 		
 		
