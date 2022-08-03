@@ -57,7 +57,7 @@ public class Streams {
 		list1.add("Maths");
 		University uni = new University("St. John's College", list1);
 		uni.print();
-		// list1.add("Art");
+		list1.add("Art");
 		University uni2 = new University("St. Peter's College", list1);
 		// uni2.print();
 		
@@ -68,7 +68,7 @@ public class Streams {
 				.collect(Collectors.toList())
 				.forEach(System.out::println);
 		
-		// Ternminal Operations
+		// Terminal Operations
 		// 1. Count
 		Stream<Integer> terminal1 = Stream.iterate(1, e -> e + 1)
 				.skip(5)
